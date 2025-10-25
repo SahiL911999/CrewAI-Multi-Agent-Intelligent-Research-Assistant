@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+crewai
+crewai-tools
+tavily-python
+requests
+pydantic
+python-multipart
+chromadb
+mcp
+ollama
+google

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FINAL FIX 2: Add charset meta tag to ensure correct character encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrewAI Research</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">Crew AI</div>
+        <div class="chat-box" id="chat-box">
+            <div class="message ai-message">
+                <div class="message-content">What can I help you with today?</div>
+            </div>
+        </div>
+        <div class="input-area">
+            <form id="query-form">
+                <input type="text" id="query-input" placeholder="Ask your question..." autocomplete="off">
+                <button type="button" id="mic-button" title="Use Voice">🎤</button>
+                <button type="submit" id="submit-button">Send</button>
+            </form>
+            <div class="button-bar">
+                <button id="clear-button">Clear Chat</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
